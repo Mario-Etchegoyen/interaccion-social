@@ -26,6 +26,8 @@ White: hsl(0, 0%, 100%) */
 
 body {
   background-image: url(../images/bg-pattern-top-desktop.svg);
+  background-image: norepeat;
+  background-size: container;
   margin: 0 auto;
   font-family: League Spartan;
   font-size: 15px;
@@ -177,4 +179,23 @@ h5 {
   position: absolute;
   top: 20%;
   right: 0%;
+}
+
+/* ------------------------ MOBILA 375px ------------------------ */
+
+@media(max-width:375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .presentacion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5dvh;
+  }
 }
