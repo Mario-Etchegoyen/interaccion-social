@@ -34,20 +34,19 @@ body {
 
 main {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 10%;
   right: 10%;
   width: 80%;
-    color: hsl(239, 43%, 22%);
+  color: hsl(300, 43%, 22%);
 }
 
 .presentacion {
   position: relative;
   display: flex;
   justify-content: space-between;
-  /* background-color: red; */
   width: 100%;
-  margin-bottom: 5dvh
+  padding-bottom: 5dvh;
 }
 
 .titulo {
@@ -67,10 +66,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5%;
   width: 50%;
-  font-size: 1.5dvw;
-  vertical-align: center;
 }
 
 .individual-referenc {
@@ -79,15 +75,14 @@ main {
   width: 80%;
   background-color: hsl(300, 24%, 96%);
   border-radius: .375rem;
-  color: hsl(300, 43%, 22%);
   font-weight: bold;
-  font-size: 1.15dvw;
-  height: 15%;
+  font-size: 1.2dvw;
+  height: 20%;
 }
 
 .ref-one {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 0;
 }
 
@@ -99,7 +94,7 @@ main {
 
 .ref-three {
   position: absolute;
-  top: 65%;
+  top: 70%;
   right: 0%
 }
 
@@ -112,46 +107,74 @@ main {
 
 .icono-estrella {
   display: flex;
-  width: 1.2dvw;
+  width: 1.3dvw;
 }
 
-
-.expositores {
-  gap: 3%;
+.compradores {
+  position: relative;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 50px;
   width: 100%;
+  height: 40dvh;
   color: hsl(0, 0%, 100%);
-
 }
 
 .opinion-compradores {
   background-color: hsl(300, 43%, 22%);
-  width: 80%;
-  padding: 3%;
+  width: 26%;
+  padding: 2%;
   border-radius: .375rem;
+  gap: 10%
 }
 
 .avatar {
   border-radius: 50%;
-  width: 20%;
-  height: 20%;
+  width: 13%;
 }
 
-.avatar-nombre{
+.avatar-nombre {
   display: flex;
   align-items: center;
+  gap: 5%;
 }
 
-.buyer{
+.buyer-name {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 1dvh 0;
+  justify-content: space-between;
 }
 
-/* h4,h5{
+h4 {
   margin-top: 3dvh;
-  margin-bottom:-2dvh;
-} */
+  margin-bottom: -2dvh;
+  font-size: 1dvw;
+  font-weight: 700;
+}
+
+h5 {
+  color: hsl(333, 80%, 67%);
+  margin-top: 3dvh;
+  font-size: 1dvw;
+  font-weight: 400;
+}
+
+.comentarios-compradores {
+  font-size: 1.2dvw;
+}
+
+.review-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.review-two {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+
+.review-three {
+  position: absolute;
+  top: 20%;
+  right: 0%;
+}
