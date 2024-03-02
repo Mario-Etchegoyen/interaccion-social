@@ -1,0 +1,157 @@
+/* ## Colors
+
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%) */
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url(../images/bg-pattern-top-desktop.svg);
+  margin: 0 auto;
+  font-family: League Spartan;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+main {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+    color: hsl(239, 43%, 22%);
+}
+
+.presentacion {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 100%;
+  margin-bottom: 5dvh
+}
+
+.titulo {
+  font-size: 4dvw;
+  font-weight: 700;
+  width: 40dvw;
+}
+
+.parrafo-titulo {
+  font-size: 1.4dvw;
+  width: 40dvw;
+  margin-top: -5%;
+}
+
+.references {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  width: 50%;
+  font-size: 1.5dvw;
+  vertical-align: center;
+}
+
+.individual-referenc {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: .375rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  font-size: 1.15dvw;
+  height: 15%;
+}
+
+.ref-one {
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+
+.ref-two {
+  position: absolute;
+  top: 45%;
+  left: 10%
+}
+
+.ref-three {
+  position: absolute;
+  top: 65%;
+  right: 0%
+}
+
+.estrellas {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+
+.icono-estrella {
+  display: flex;
+  width: 1.2dvw;
+}
+
+
+.expositores {
+  gap: 3%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+
+}
+
+.opinion-compradores {
+  background-color: hsl(300, 43%, 22%);
+  width: 80%;
+  padding: 3%;
+  border-radius: .375rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+.avatar-nombre{
+  display: flex;
+  align-items: center;
+}
+
+.buyer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1dvh 0;
+}
+
+/* h4,h5{
+  margin-top: 3dvh;
+  margin-bottom:-2dvh;
+} */
