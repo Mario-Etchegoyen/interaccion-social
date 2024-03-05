@@ -16,7 +16,10 @@ White: hsl(0, 0%, 100%) */
 
 
 .attribution {
-  position: 
+  position:absolute ;
+  top:98dvh;
+  width: 90dvw;
+  margin: 0 5dvw;
   font-size: 11px;
   text-align: center;
 }
@@ -261,18 +264,13 @@ h5 {
     left: 0%
   }
 
-  .buyers {
-    /* background-color: blue; */
-  }
-
   .opinion-compradores {
-    width: 90%;
+    width: 93%;
     /* padding-top: -10dvh; */
     padding-left: 5%;
     height: auto;
     border-radius: .675rem;
   }
-
 
   .review-one {
     position: absolute;
@@ -297,10 +295,6 @@ h5 {
   }
 
   .avatar-name {
-    /* display: flex; */
-    /* align-items: center; */
-    /* gap: 5%; */
-    /* margin-top: 0.5dvh; */
     margin-top: -0.5vh;
     margin-left: 5dvw;
     margin-bottom: 2dvh;
@@ -314,14 +308,11 @@ h5 {
 
   h4 {
     margin-top: 2.5dvh;
-    /* margin-bottom: -2dvh; */
     font-size: 5dvw;
     font-weight: 400;
   }
 
   h5 {
-    /* color: hsl(333, 80%, 67%); */
-    /* margin-top: dvh; */
     font-size: 5dvw;
     font-weight: 400;
   }
