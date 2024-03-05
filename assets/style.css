@@ -209,14 +209,12 @@ h5 {
   .titulo {
     font-size: 10dvw;
     font-weight: 700;
-    /* font-weight: bold ; */
     width: 90dvw;
   }
 
   .parrafo-titulo {
     font-size: 4.8dvw;
     width: 90dvw;
-    /* margin-top: 0%;     */
     margin-bottom: 10%;
     line-height: 1.6dvh;
   }
@@ -266,7 +264,6 @@ h5 {
 
   .opinion-compradores {
     width: 93%;
-    /* padding-top: -10dvh; */
     padding-left: 5%;
     height: auto;
     border-radius: .675rem;
